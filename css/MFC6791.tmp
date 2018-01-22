@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+.logo{
+	display: flex;
+	justify-content: space-between;
+	padding: 30px;
+	align-content: center;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.menu{
+	display: inline;
+	font-family: amaranth;
+	font-size: 24px;
+	font-weight: bold;
+}
+.navbar {
+	padding-bottom: 5px;
+	font-family: amaranth;
+	font-size: 24px;
+	font-weight: bold;
+	border-style: none;
+}
