@@ -1,9 +1,13 @@
 @charset "utf-8";
 
+.bold-text{
+	font-weight: bold;
+}
 p{
 	text-align: justify;
 	font-family : Play;
   font-size : 16px;
+	
 }
 h1{
 	font-family : Amaranth;
@@ -24,7 +28,9 @@ h2{
 	margin-left: 10px;
 	margin-right: 10px;
 }
-
+.ieee_logo{
+	align-self: flex-start;
+}
 .navbar {
 	padding-bottom: 5px;
 	font-family:play;
@@ -56,9 +62,14 @@ h2{
 	display: flex;
 	
 }
-.feature-one{
-	border-style: dashed;
+.feature-container{
+	border-style: dotted;
+	border-width: thin;
 	border-color: #000000;
+}
+.feature-one{
+	border-right-style: dotted;
+	border-width: thin;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
@@ -66,9 +77,8 @@ h2{
 	
 }
 .feature-two{
-	border-left-style: none;
-	border-style: dashed;
-	border-color: #000000;
+	border-left-style: dotted;
+	border-width: thin;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
@@ -100,36 +110,11 @@ h2{
   	height :220px;
 	
 }
-.footer ul{
-	margin:0 auto;
-	text-align:center;
-	list-style-type:none;
-}
-.footer ul li{
-	display:inline-block;
-	text-align:center;
-	background:#000;
-	color:#fff;
-	line-height:42px;
-	margin:0 6px;
-	width:42px !important;
-	height:42px !important;
-	
-	-webkit-border-radius: 50%;
-    border-radius: 50%;
-}
-.footer ul li:hover{
-	background:#fff ;
-}
-.footer ul li:hover	a{
-	color:#000;
-}
 
-.footer ul li a{
-	color:#fff;
-	width:42px !important;
-	height:42px !important;
-}
-.footer ul li a i{
-	line-height:42px !important;
+.footer-bottom{
+	background-color: #000000;
+	font-size: 10;
+	color:aliceblue;
+	display: flex;
+	justify-content: center;
 }
