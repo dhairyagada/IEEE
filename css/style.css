@@ -20,6 +20,10 @@ h2{
   	 font-size : 24px;
 	text-align: center;	
 }
+.event-head h2{
+	font-size: 28px;
+	font-weight: 200;
+}
 .logo{
 	display: flex;
 	justify-content: space-between;
