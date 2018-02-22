@@ -5,18 +5,18 @@
 }
 p{
 	text-align: justify;
-	font-family : Play;
+	font-family : 'Play', sans-serif;
   font-size : 16px;
 	
 }
 h1{
-	font-family : Amaranth;
+	font-family: 'Amaranth', sans-serif;
   font-weight : bold;
   font-size : 36px;
 	text-align: center;
 }
 h2{
-	 font-family : Amaranth;
+	 font-family: 'Amaranth', sans-serif;
   	 font-size : 24px;
 	text-align: center;	
 }
@@ -37,7 +37,7 @@ h2{
 }
 .navbar {
 	padding-bottom: 5px;
-	font-family:play;
+	font-family:'Play', sans-serif;
 	font-size: 20px;
 	font-weight: bold;
 	border-style: none;
@@ -52,11 +52,11 @@ h2{
 	display: flex;
 	justify-content: flex-end;
 	align-content: center;
-	background-color: #E5E7E9  ;
+	background-color: #FFFFFF  ;
 }
 
 .highlight .content p{
-	font-family : Play;
+	font-family : 'Play', sans-serif;
   font-size : 16px;
 	text-align: justify;
 }
@@ -65,6 +65,9 @@ h2{
   height : inherit;
 	display: flex;
 	
+}
+.feature{
+    background-color:#d9edf7;
 }
 .feature-container{
 	
@@ -81,8 +84,9 @@ h2{
 .feature-two{
 	
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	justify-content: space-around;
+	align-content: center;
 }
 
 .feature img{
@@ -99,12 +103,15 @@ h2{
 	display: flex;
 	justify-content: center;
 	text-align: justify;
-	font-family : Play;
+	font-family : 'Play', sans-serif;
   	font-size : 16px;
 }
-
+.mentor-text-height{
+    height:275px;
+    overflow: hidden;
+}
 .events{
-	background-color: #E5E7E9  ;
+	background-color: #FFFFFF  ;
 }
 .events img{
 	 max-width: 100%;
@@ -127,4 +134,9 @@ h2{
   	height :400px ;
 	padding: 10px;
 	
+}
+
+.card-text-height{
+    height:500px;
+    overflow: hidden;
 }
