@@ -67,13 +67,11 @@ h2{
 	
 }
 .feature-container{
-	border-style: dotted;
-	border-width: thin;
+	
 	border-color: #000000;
 }
 .feature-one{
-	border-right-style: dotted;
-	border-width: thin;
+
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
@@ -81,8 +79,7 @@ h2{
 	
 }
 .feature-two{
-	border-left-style: dotted;
-	border-width: thin;
+	
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
